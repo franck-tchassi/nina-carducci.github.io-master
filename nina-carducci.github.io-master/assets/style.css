@@ -17,25 +17,27 @@ body {
 	padding-block: 30px;
 	align-items: center;
 }
-
+/* ajout de couleur et font-weight **/
 .top-header .name {
 	font-size: 26px;
+	color: #000;
+	font-weight: 800;
 }
 
 .nav ul {
 	display: flex;
 	list-style-type: none;
-	font-size: 14px;
 	margin-bottom: 0;
 }
 
 .nav li {
 	padding-inline: 10px;
 }
-
+/* ajout du font-size **/
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
+	font-size: 1.3em;
 }
 
 .social-link img {
@@ -74,39 +76,55 @@ body {
 #about-me {
 	flex: 2
 }
+/* ajout du font-weight **/
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
+	font-weight: 600;
 }
+/* ajout du font-weight et du font-size **/
 .about-me__introduction {
 	font-family: 'Spectral';
-	font-weight: 800;
+	font-weight: 600;
+	font-size: 23px;
 	font-style: italic;
 	width: 60%;
 }
+/* ajout du de couleur et du font-size **/
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 17px;
+    color: black;
 }
 
 #gallery {
 	/*	min-height: 100vh; */
 }
+
+/* ajout de font-weight et du font-size **/
 .title{
 	text-align: center;
 	padding-block: 2em;
+	color: #000;
+    font-weight: 600;
 }
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+/*modifier **/
+.nav-pills .nav-link.active-tag{
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	
 }
+/*modifier **/
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	background-color: transparent;
+	cursor: pointer;
+	
 }
 .item-column {
 	position: relative;
@@ -143,10 +161,12 @@ body {
 	margin: auto;
 	padding-block: 3em;
 }
+/* ajout du font-size */
 .quote__text {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.7rem;
 
 }
 .quote__author {
@@ -242,6 +262,14 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+#contact .copy{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 82px;
+	
 }
 
 @media all and (max-width: 1180px) {
