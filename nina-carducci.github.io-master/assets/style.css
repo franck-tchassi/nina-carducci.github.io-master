@@ -20,8 +20,6 @@ body {
 /* ajout de couleur et font-weight **/
 .top-header .name {
 	font-size: 26px;
-	color: #000;
-	font-weight: 800;
 }
 
 .nav ul {
@@ -81,7 +79,7 @@ body {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
-	font-weight: 600;
+	
 }
 .about-me__introduction {
 	font-family: 'Spectral';
@@ -98,8 +96,6 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
-	color: #000;
-    font-weight: 600;
 }
 .gallery .nav {
 	justify-content: center;
